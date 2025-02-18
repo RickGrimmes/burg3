@@ -29,7 +29,6 @@ const handleScroll = () => {
     let position = window.scrollY || document.documentElement.scrollTop;
     let imgHamburger1 = document.getElementById("img_hamburger_1");
     let sectionHamburgers = document.getElementById("section_hamburgers");
-    // Añade aquí el código para el efecto parallax
   });
 };
 
