@@ -131,11 +131,6 @@ a:hover {
 
 
 /* #region IMAGES */
-img {
-   width: auto;
-   height: auto;
-}
-
 .img-container {
    margin: 2.5rem;
    height: 10rem;
@@ -204,7 +199,8 @@ img {
 img {
    object-fit: cover;
    border-radius: 10px;
-   /* opacity: .5; */
+   width: auto;
+   height: auto;
 }
 .img-responsive {
    height: 100%;
@@ -898,10 +894,6 @@ p {
    font-size: 7vw;
    line-height: 8vw;
 }
-@media screen and (max-width: 2560px) {
-   /* #section_into_soil { height: 290vh; } */
-}
-
 @media screen and (max-width: 1024px) {
    #section_into_soil { height: 165vh; }
 }
@@ -981,7 +973,6 @@ p {
    }
 }
 
-
 :root {
    --url--hamburger--1: url('../assets/hamburgers/Hamburger-part-1-dark-lg.png');
    --url--hamburger--2: url('../assets/hamburgers/Hamburger-part-2-lg.png');
@@ -1034,7 +1025,6 @@ p {
 @media screen and (max-width: 376px ) {
    :root { --top--parallax: 10vh; --height--parallax: 90vh; }
 }
-
 
 :root {
    --font--size--p--parallax: 2vw;
