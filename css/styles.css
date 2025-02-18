@@ -131,6 +131,11 @@ a:hover {
 
 
 /* #region IMAGES */
+img {
+   width: auto;
+   height: auto;
+}
+
 .img-container {
    margin: 2.5rem;
    height: 10rem;
