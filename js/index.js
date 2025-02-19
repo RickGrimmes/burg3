@@ -1,7 +1,7 @@
 AOS.init();
 
-let timeTimeOut = 3500; 
-let time = 300;
+const timeTimeOut = 3500; 
+const time = 300;
 
 const elements = {
   introLogo: document.querySelector("#intro_logo"),
@@ -26,9 +26,9 @@ const animation_3 = () => {
 //#region EFECTO PARALLAX
 const handleScroll = () => {
   requestAnimationFrame(() => {
-    let position = window.scrollY || document.documentElement.scrollTop;
-    let imgHamburger1 = document.getElementById("img_hamburger_1");
-    let sectionHamburgers = document.getElementById("section_hamburgers");
+    const position = window.scrollY || document.documentElement.scrollTop;
+    const imgHamburger1 = document.getElementById("img_hamburger_1");
+    const sectionHamburgers = document.getElementById("section_hamburgers");
   });
 };
 
@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const animations = () => {
     setTimeout(animation_1, timeTimeOut);
-    setTimeout(animation_2, timeTimeOut += time);
-    setTimeout(animation_3, timeTimeOut += time + 2500);
+    setTimeout(animation_2, timeTimeOut + time);
+    setTimeout(animation_3, timeTimeOut + time + 2500);
   };
   animations();
 });
